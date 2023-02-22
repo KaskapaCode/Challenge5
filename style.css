@@ -1,0 +1,145 @@
+body{
+    background-color: hsl(36, 100%, 99%);
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    margin-top: 75px;
+}
+.mainIMG{
+    width: 65%;
+    margin-top: 40px;
+}
+.hamburger{
+    display: flex;
+    align-items: baseline;
+    float: right;
+    font-weight: 400;
+    font-size: 14px;
+}
+.hamburger p{
+    color: hsl(236, 13%, 42%);
+    margin-left: 40px;
+    bottom: 50%;
+}
+.newSideBar{
+    background-color: hsl(240, 100%, 5%);
+    height: 450px;
+    width: 32%;
+    float: right;
+    margin-top: 40px;
+    color: hsl(36, 100%, 99%);
+}
+.newSideBar h1{
+    margin-left: 25px;
+    font-size: 35px;
+    margin-top: 25px;
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 0px;
+}
+.newSideBar h3{
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 19px;
+}
+
+.newSideBar p{
+    color: hsl(233, 8%, 79%);
+    font-size: 13px;
+    margin: 25px;
+    line-height: 25px;
+    word-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+hr{
+    margin: 25px;
+    margin-top: 10px;
+    color: hsl(236, 13%, 42%);
+}
+.title h1{
+    font-size: 50px;
+    width: 300px;
+    line-height: 55px;
+    margin-top: 20px;
+    float: left;
+    margin-right: 35px;
+}
+.title{
+    display: flex;
+}
+.title p{
+    width: 335px;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+    color:  hsl(236, 13%, 42%);
+    float: left;
+}
+.title div{
+    display: inline;
+}
+.title button{
+    height: 40px;
+    width: 40%;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+}
+.moreArticles{
+    margin-top: 60px;
+    display: flex;
+}
+.moreArticles img{
+    height: 50%;
+}
+.article{
+    display: flex;
+    margin-right: 20px;
+}
+.article div{
+    width: 90%;
+    margin-left: 25px;
+}
+.article h1{
+    margin: auto;
+    margin-top: 0px;
+    font-size: 30px;
+    color: hsl(233, 8%, 79%);
+}
+.article h3{
+    margin: auto;
+    font-size: 17px;
+    color: hsl(240, 100%, 5%);
+    font-weight: 800;
+    margin-top: 10px;
+}
+.article p{
+    margin: auto;
+    margin-top: 10px;
+    font-size: 14px;
+    color: hsl(236, 13%, 42%);
+    font-weight: 400;
+    line-height: 25px;
+}
+.hamburger p:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+.newSideBar h3:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+.article h3:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
